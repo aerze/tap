@@ -1,0 +1,33 @@
+{
+  "name": "phaser-wepack",
+  "version": "0.0.1",
+  "description": "Boilerplate for Phaser.io + Webpack (ES5)",
+  "main": "server.js",
+  "scripts": {
+    "server": "node server.js",
+    "webpack": "webpack",
+    "webpack-watch": "webpack -w",
+    "start": "npm run webpack-watch & npm run server"
+  },
+  "dependencies": {
+    "express": "^4.14.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aerze/phaser-webpack"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "phaser",
+    "HTML5",
+    "webpack",
+    "boilerplate",
+    "phaser.js",
+    "game"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "webpack": "^1.13.1"
+  }
+}
