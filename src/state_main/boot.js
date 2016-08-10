@@ -9,11 +9,11 @@ var BootState = {
 
     // Force Phone-like dimensions
     if (this.game.device.desktop) {
-        body.style.width = '400px';
-        body.style.margin = '10px auto';
+      body.style.width = '400px';
+      body.style.margin = '10px auto';
     } else {
-        container.style.height = window.innerHeight + 'px';
-        container.style.width = window.innerWidth + 'px';
+      container.style.height = window.innerHeight + 'px';
+      container.style.width = window.innerWidth + 'px';
     }
 
     this.scale.scaleMode = Phaser.ScaleManager.SHOW_ALL;

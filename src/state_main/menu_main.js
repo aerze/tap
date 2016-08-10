@@ -60,4 +60,4 @@ var MainMenuState = {
 
 };
 
-module.exports = MainMenuState
+module.exports = MainMenuState;
