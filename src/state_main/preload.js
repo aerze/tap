@@ -18,7 +18,7 @@ var PreloadState = {
     // Bitmap Fonts
     this.load.bitmapFont('coolvetica', 'assets/coolvetica.png', 'assets/coolvetica.xml');
     this.game.FONT = 'coolvetica';
-    this.game.FONT_SIZE = 64;
+    this.game.FONT_SIZE = 72;
 
 
     this.load.audio('childShort', ['assets/children-yeah-short.mp3']);
